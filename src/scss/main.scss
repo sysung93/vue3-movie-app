@@ -1,0 +1,21 @@
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+//재정의한 primary 변수는 variables 모듈에 영향을 줘서 
+//실제로 primary라는 이름을 가진 변수는 내가 지정한 색상으로 활용할 수 있다
+$primary: #FDC000;
+$container-max-widths: (
+  sm: 540px,
+  md: 704px,
+  lg: 924px,
+  xl: 1140px,
+  xxl: 1364px
+);
+
+// Required
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
